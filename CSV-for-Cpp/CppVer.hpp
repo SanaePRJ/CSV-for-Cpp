@@ -1,6 +1,7 @@
 /*=============================================================
 * NAME      : json.hpp
-* AUTHOR    : SanaeProject1.0.0
+* AUTHOR    : SanaeProject
+* VER       : 2.0.1
 * COPYRIGHGT: Copyright 2023 SanaeProject.
 =============================================================*/
 
