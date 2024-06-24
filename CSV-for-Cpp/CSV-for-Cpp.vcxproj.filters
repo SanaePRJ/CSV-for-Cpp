@@ -26,10 +26,19 @@
     <ClInclude Include="CppVer.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="ReadCSV.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteCSV.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
       <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="CSV">
+      <Filter>ヘッダー ファイル</Filter>
     </None>
   </ItemGroup>
 </Project>

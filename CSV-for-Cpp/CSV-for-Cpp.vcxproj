@@ -132,9 +132,12 @@
   <ItemGroup>
     <ClInclude Include="CppVer.hpp" />
     <ClInclude Include="CSV.hpp" />
+    <ClInclude Include="ReadCSV.hpp" />
+    <ClInclude Include="WriteCSV.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
+    <None Include="CSV" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

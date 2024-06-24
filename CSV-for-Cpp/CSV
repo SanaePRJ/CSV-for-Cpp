@@ -1,0 +1,25 @@
+// ==============================================================
+// NAME      : CSV
+// AUTHOR    : SanaeProject
+// VER       : 2.0.1
+// COPYRIGHT : Copyright 2023 SanaeProject.
+// ==============================================================
+
+
+
+
+#ifndef _INCLUDEGUARD_CSV_
+#define _INCLUDEGUARD_CSV_
+
+
+
+
+#include "CSV.hpp"      //宣言
+
+#include "ReadCSV.hpp"  //実装ヘッダファイル
+#include "WriteCSV.hpp" //実装ヘッダファイル
+
+
+
+
+#endif // _INCLUDEGUARD_CSV_
