@@ -59,6 +59,7 @@ template<typename T>bool Sanae::WriteCSV::NewLine
 
     if (IsChar and Buffer == (std::string)"\n") {
         WriteBuffer += '\n';
+
         this->Ofs.write(WriteBuffer.c_str(), WriteBuffer.size());
         WriteBuffer.clear();
         return true;
