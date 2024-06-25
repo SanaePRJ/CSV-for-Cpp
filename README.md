@@ -1,6 +1,6 @@
-# CSV.hpp 解説
+# CSV-For-CPP解説
 
-このファイルは、CSVファイルの読み込みと書き込みを行うためのクラス `ReadCSV` と `WriteCSV` を提供します。以下にそれぞれのクラスとそのメンバ関数について詳しく説明します。
+このリポジトリは、CSVファイルの読み込みと書き込みを行うためのクラス `ReadCSV` と `WriteCSV` を提供します。以下にそれぞれのクラスとそのメンバ関数について詳しく説明します。
 
 ```cpp
 /* ---------------------------------------------------------------------------------------------
@@ -82,9 +82,12 @@ public:
 #endif // _INCLUDEGUARD_CSV_HPP_
 ```
 
+## インクルード
+ReadCSVおよびWriteCSVの機能を使用するにはCSVをインクルードします。
+
 ## ReadCSV使用例
 ```cpp
-#include "CSV.hpp"
+#include "CSV"
 #include <iostream>
 #include <vector>
 
@@ -112,7 +115,7 @@ int main() {
 
 ## WriteCSV使用例
 ```cpp
-#include "CSV.hpp"
+#include "CSV"
 #include <iostream>
 
 int main() {
